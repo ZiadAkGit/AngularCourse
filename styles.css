@@ -87,7 +87,7 @@ button:hover {
 #Welcome {
 	margin: 0 auto;
 	display: flex;
-	width: fit-content;
+	width: 60%;
 	margin-bottom: 19%;
 	align-items: center;
 }
