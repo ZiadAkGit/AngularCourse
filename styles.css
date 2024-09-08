@@ -3,7 +3,14 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	background-color: #fff8e8;
-	/* font-family: "JackieSueBF", sans-serif; */
+	height: 100%;
+	width: 100%;
+}
+#chronograph_body {
+	display: inline-block;
+}
+#dress_body {
+	display: inline-block;
 }
 header {
 	height: 75px;
@@ -15,7 +22,20 @@ header {
 	color: #fff8e8;
 	background-color: #674636;
 }
-
+#footer {
+	font-family: "JackieSueBF", sans-serif;
+	margin: 0 auto;
+	background-color: #674636;
+	font-size: 20px;
+	color: #fff8e8;
+	text-align: left;
+	width: 100%;
+	padding: 10px;
+}
+footer p {
+	margin: 0 auto;
+	padding: 3px;
+}
 .navbar ul {
 	list-style: none;
 	display: flex;
@@ -40,12 +60,12 @@ h1 {
 div {
 	font-size: 20px;
 	background-color: #f7eed3;
-	margin: 0 auto;
 	padding: 12px;
 	width: 20%;
 	border: solid;
 	display: inline-block;
 	color: #674636;
+	margin: 0 15px 15px 0;
 }
 img {
 	margin: 0 auto;
@@ -66,15 +86,20 @@ button:hover {
 }
 #Welcome {
 	margin: 0 auto;
+	display: flex;
 	width: fit-content;
-	margin-top: 10%;
+	margin-bottom: 19%;
+	align-items: center;
+}
+#homeimg {
+	padding: 15px;
 }
 #product {
 	background-color: #fff8e8;
 	width: 45%;
 	height: fit-content;
 	display: flex;
-    border: #fff8e8;
+	border: #fff8e8;
 }
 #product div {
 	width: 50%;

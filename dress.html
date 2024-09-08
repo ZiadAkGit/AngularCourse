@@ -10,13 +10,13 @@
 		<link rel="icon" type="image/x-icon" href="icon.ico" />
 		<title>Chrono Crafter</title>
 	</head>
-	<body>
-        <header>
+	<body id="dress_body">
+		<header>
 			<nav class="navbar">
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="chronograph.html">Chronograph Watches</a></li>
-                    <li><a href="dress.html">Dress Watches</a></li>
+					<li><a href="dress.html">Dress Watches</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -33,7 +33,7 @@
 					src="https://www.aviandco.com/media/catalog/product/cache/82bcb559010dcd84bc6a2f8c2fdad6e6/p/a/patek_philippe_calatrava_5227j_ivory-photoroom.png-photoroom.png"
 				/>
 			</p>
-			<button onclick="moveNext()">More Details..</button>
+			<button onclick="moveNext(this)">More Details..</button>
 		</div>
 		<div>
 			<h3>Rolex Cellini</h3>
@@ -47,8 +47,9 @@
 					src="https://i.pinimg.com/originals/72/d1/12/72d11239838e270147491de37c81451c.png"
 				/>
 			</p>
-			<button onclick="moveNext()">More Details..</button>
+			<button onclick="moveNext(this)">More Details..</button>
 		</div>
+		<br />
 		<div>
 			<h3>Omega De Ville</h3>
 			<p>
@@ -61,7 +62,7 @@
 					src="https://www.omegawatches.com.hk/media/catalog/product/o/m/omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43413412106001-watch-wrist-f18bc4.png"
 				/>
 			</p>
-			<button onclick="moveNext()">More Details..</button>
+			<button onclick="moveNext(this)">More Details..</button>
 		</div>
 		<div>
 			<h3>Jaeger-LeCoultre Master Control</h3>
@@ -75,7 +76,11 @@
 					src="https://www.tourneau.com/on/demandware.static/-/Sites-master-catalog/default/dw5a952813/images/large/Q4018420-Jaeger-LeCoultre-Master-Control-date-JLC0133738.png"
 				/>
 			</p>
-			<button onclick="moveNext()">More Details..</button>
+			<button onclick="moveNext(this)">More Details..</button>
 		</div>
+		<footer id="footer">
+			<p id="fotP">Ziad Abu Khadra</p>
+		</footer>
 	</body>
+	<script src="script.js"></script>
 </html>
