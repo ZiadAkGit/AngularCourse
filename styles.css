@@ -1,0 +1,91 @@
+body {
+	color: #aab396;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #fff8e8;
+	/* font-family: "JackieSueBF", sans-serif; */
+}
+header {
+	height: 75px;
+	font-size: 30px;
+	font-family: "JackieSueBF", sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff8e8;
+	background-color: #674636;
+}
+
+.navbar ul {
+	list-style: none;
+	display: flex;
+	gap: 15px;
+}
+
+.navbar a {
+	color: #fff8e8;
+	text-decoration: none;
+	font-size: 1em;
+}
+.navbar a:hover {
+	color: #aab396;
+}
+
+h1 {
+	font-size: 90px;
+	font-family: "Circ Handwriting", sans-serif;
+	color: #674636;
+	text-shadow: white 1px 1px;
+}
+div {
+	font-size: 20px;
+	background-color: #f7eed3;
+	margin: 0 auto;
+	padding: 12px;
+	width: 20%;
+	border: solid;
+	display: inline-block;
+	color: #674636;
+}
+img {
+	margin: 0 auto;
+	height: 300px;
+	padding-bottom: 20px;
+}
+button {
+	background-color: #aab396;
+	border-radius: 8px;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 15px;
+}
+button:hover {
+	color: white;
+	background-color: #674636;
+	cursor: pointer;
+}
+#Welcome {
+	margin: 0 auto;
+	width: fit-content;
+	margin-top: 10%;
+}
+#product {
+	background-color: #fff8e8;
+	width: 45%;
+	height: fit-content;
+	display: flex;
+    border: #fff8e8;
+}
+#product div {
+	width: 50%;
+	height: 180px;
+	margin-top: 40px;
+}
+#productImg {
+	padding-bottom: 0px;
+}
+@media (max-width: 700px) {
+	div {
+		width: 100%;
+	}
+}

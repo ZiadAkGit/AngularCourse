@@ -1,0 +1,70 @@
+{
+	"categories": [
+		{
+			"type": "Dress Watches",
+			"description": "Dress watches are designed with elegance and formality in mind, often featuring a slim profile, minimalistic dials, and classic design elements. They are typically worn with formal attire and are valued for their refined aesthetic and understated sophistication.",
+			"watches": [
+				{
+					"name": "Patek Philippe Calatrava",
+					"details": "This iconic watch is celebrated for its understated elegance and classic design, featuring a simple, round case and clean dial, perfect for formal settings."
+				},
+				{
+					"name": "Rolex Cellini",
+					"details": "The Cellini series is known for its refined, classic look with luxurious materials and a thin profile, making it a sophisticated choice for dress occasions."
+				},
+				{
+					"name": "Omega De Ville",
+					"details": "The De Ville collection combines a timeless design with modern technology, often featuring sleek dials and slim profiles that complement formal attire."
+				},
+				{
+					"name": "Jaeger-LeCoultre Master Control",
+					"details": "This watch stands out for its elegant design and high-quality craftsmanship, often featuring a clean dial and classic lines, suitable for both business and formal events."
+				}
+			]
+		},
+		{
+			"type": "Diving Watches",
+			"description": "Diving watches are built to withstand underwater conditions and feature high water resistance, luminous markers, and often a unidirectional rotating bezel for tracking dive times. They are designed for both professional and recreational divers, offering durability and functionality in extreme environments.",
+			"watches": [
+				{
+					"name": "Rolex Submariner",
+					"details": "An iconic diving watch known for its robust build, including a unidirectional rotatable bezel, luminous markers, and high water resistance, making it a staple for professional divers and enthusiasts alike."
+				},
+				{
+					"name": "Omega Seamaster",
+					"details": "The Seamaster series is renowned for its durability and water resistance, featuring a helium escape valve and a rugged design that caters to both recreational and professional divers."
+				},
+				{
+					"name": "Tag Heuer Aquaracer",
+					"details": "This watch combines a sporty design with practical features such as a rotating bezel, luminous hands, and high water resistance, making it ideal for diving and other water activities."
+				},
+				{
+					"name": "Seiko Prospex",
+					"details": "Known for its reliability and affordability, the Prospex series offers robust water resistance, a durable case, and practical features suited for both casual and serious diving."
+				}
+			]
+		},
+		{
+			"type": "Field Watches",
+			"description": "Field watches are crafted for durability and practicality, often featuring robust cases, clear dials, and reliable movements. They are inspired by military designs and are ideal for outdoor activities and rugged use, providing functionality and toughness in challenging conditions.",
+			"watches": [
+				{
+					"name": "Hamilton Khaki Field",
+					"details": "This watch is designed for durability and functionality with a military-inspired aesthetic, featuring a rugged case, legible dial, and reliable movement, ideal for outdoor activities."
+				},
+				{
+					"name": "Seiko Field Watch",
+					"details": "Known for its practical design and reliability, this watch often includes features like a durable case, clear dial, and robust movement, making it suitable for various field conditions."
+				},
+				{
+					"name": "Longines Heritage Military",
+					"details": "Combining vintage military styling with modern reliability, this watch features a classic design with a durable case and readable dial, offering a nod to historical military watches."
+				},
+				{
+					"name": "Casio G-Shock",
+					"details": "Famous for its shock resistance and durability, the G-Shock series is designed to withstand extreme conditions, featuring multiple time zones, alarms, and a rugged case, making it a popular choice for adventurers and outdoor enthusiasts."
+				}
+			]
+		}
+	]
+}
