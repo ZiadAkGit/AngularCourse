@@ -93,6 +93,8 @@ button:hover {
 }
 #homeimg {
 	padding: 15px;
+	height: 40%;
+	width: 70%;
 }
 #product {
 	background-color: #fff8e8;
