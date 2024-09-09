@@ -70,7 +70,7 @@ div {
 img {
 	margin: 0 auto;
 	height: 300px;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
 button {
 	background-color: #aab396;
@@ -87,14 +87,14 @@ button:hover {
 #Welcome {
 	margin: 0 auto;
 	display: flex;
-	width: 60%;
-	margin-bottom: 19%;
+	width: 50%;
+	margin-bottom: 22%;
 	align-items: center;
 }
 #homeimg {
-	padding: 15px;
-	height: 40%;
-	width: 70%;
+	padding: 10px;
+	height: 50%;
+	width: 55%;
 }
 #product {
 	background-color: #fff8e8;
