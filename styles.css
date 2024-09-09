@@ -67,6 +67,10 @@ div {
 	color: #674636;
 	margin: 0 15px 15px 0;
 }
+div:hover {
+	background-color: #f5e8c3;
+}
+
 img {
 	margin: 0 auto;
 	height: 300px;
@@ -90,6 +94,9 @@ button:hover {
 	width: 50%;
 	margin-bottom: 22%;
 	align-items: center;
+}
+#Welcome:hover {
+	background-color: #f7eed3;
 }
 #homeimg {
 	padding: 10px;
